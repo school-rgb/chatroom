@@ -1,0 +1,18 @@
+{
+  "name": "nexus-chat",
+  "version": "1.0.0",
+  "description": "Nexus real-time messaging and calling platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0",
+    "ws": "^8.18.0"
+  }
+}
